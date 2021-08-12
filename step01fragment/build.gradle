@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.elliot.studyjava"
+        applicationId "com.elliot.step01fragment"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
