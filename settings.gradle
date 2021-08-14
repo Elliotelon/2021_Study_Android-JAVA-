@@ -1,3 +1,4 @@
+include ':step04webview'
 include ':step03sharedpreferences'
 include ':step02thread'
 include ':step01fragment'
