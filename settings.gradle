@@ -1,3 +1,4 @@
+include ':step06spinner'
 include ':step05listview'
 include ':step04webview'
 include ':step03sharedpreferences'
