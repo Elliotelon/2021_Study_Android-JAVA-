@@ -1,3 +1,4 @@
+include ':step08service'
 include ':step07alertdialog'
 include ':step06spinner'
 include ':step05listview'
