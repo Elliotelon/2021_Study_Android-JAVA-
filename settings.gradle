@@ -1,3 +1,5 @@
+include ':step10loadinganimation'
+include ':step09video'
 include ':step08service'
 include ':step07alertdialog'
 include ':step06spinner'
