@@ -1,3 +1,4 @@
+include ':step11generic'
 include ':step10loadinganimation'
 include ':step09video'
 include ':step08service'
