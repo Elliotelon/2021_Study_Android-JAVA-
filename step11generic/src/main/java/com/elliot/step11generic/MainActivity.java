@@ -5,6 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -32,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
 
         stringType.showYourType();
         integerType.showYourType();
+
+        List<String> list = new ArrayList<String>();
+        TestMethod.method(list, "listTest");
 
 
     }
