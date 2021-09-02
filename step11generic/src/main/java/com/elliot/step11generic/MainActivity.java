@@ -24,6 +24,15 @@ public class MainActivity extends AppCompatActivity {
         TextView textView3 = findViewById(R.id.textView3);
         textView3.setText(sampleImpl.testMethod2("Sample"));
 
+        TestGeneric<String> stringType = new TestGeneric<String>();
+        TestGeneric<Integer> integerType = new TestGeneric<Integer>();
+
+        stringType.sample = "Hello";
+        integerType.sample = 1;
+
+        stringType.showYourType();
+        integerType.showYourType();
+
 
     }
 }
