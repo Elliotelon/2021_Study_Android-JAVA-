@@ -12,3 +12,4 @@ include ':step01fragment'
 include ':app'
 rootProject.name = "studyjava"
 include ':step12activitylifecycle'
+include ':step13textview'
